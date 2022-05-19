@@ -148,17 +148,16 @@ input{
 
 .btn_rr{
     background-color: red;
-    border-color: red;
+    border:none;
     color: white;
-    -moz-text-decoration-color: white;
-    padding: 6px 6px;
+    padding: 12px;
     border-radius: 25px;    
 }
 
 .middle-btn{
     background-color: gray;
-    border-color: gray;
-    color: black;
-    padding: 6px 6px;
+    border: none;
+    color: white;
+    padding: 12px;
     border-radius: 25px;    
 }
