@@ -145,3 +145,20 @@ input{
 .low-input{
     width: 100%;
 }
+
+.btn_rr{
+    background-color: red;
+    border-color: red;
+    color: white;
+    -moz-text-decoration-color: white;
+    padding: 6px 6px;
+    border-radius: 25px;    
+}
+
+.middle-btn{
+    background-color: gray;
+    border-color: gray;
+    color: black;
+    padding: 6px 6px;
+    border-radius: 25px;    
+}
