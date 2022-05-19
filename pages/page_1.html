@@ -4,62 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <title> Pinterest page one</title>
+    <title>Pinterest page two</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilo_pin.css">
 </head>
 <body>
     <nav id="navbar-pinterest">
-        <div class="logo"><img src="https://i.pinimg.com/736x/4a/d5/f1/4ad5f12c021c97081d0f7a8c393e0d0f.jpg" alt=""></div>
+        <div class="logo"><a href="../index.html"><img src="https://i.pinimg.com/736x/4a/d5/f1/4ad5f12c021c97081d0f7a8c393e0d0f.jpg" alt=""></a></div>
         <div class="button"><a href="">Inicio</a></div>
         <div class="today"><a href="">Hoy</a></div>
         <div id="input-searchbar">
-            <input type="finder">
+            <input type="finder" placeholder="Buscar">
         </div>
         <div class="nav-right">
-            <div class="notifications"><a href=""><img src="./assets/images/notification.png" alt=""></a></div>
-            <div class="messages"><a href=""><img src="./assets/images/messenger.png" alt=""></a></div>
-            <div class="profile"><a href=""><img src="./assets/images/profile-user.png" alt=""></a></div>
+            <div class="notifications"><a href=""><img src="../assets/images/notification.png" alt=""></a></div>
+            <div class="messages"><a href=""><img src="../assets/images/messenger.png" alt=""></a></div>
+            <div class="profile"><a href=""><img src="../assets/images/profile-user.png" alt=""></a></div>
             <div class="dropdwon"></div>
         </div>
     </nav>
-
-
-    <section>
-        <div>
-            <h2> Más como esto </h2>
+    <div class="contenedor">
+        <div class="tarjeta">
+            <div class="izquierdo">
+                <img id="image-card" src="../assets/images/pin15.jpeg" alt="">
+            </div>
+            <div class="derecho">
+                <div class="up">
+                    <div class="iconos">
+                        <img class="icon-card" src="../assets/icons/ellipsis.png" alt="">
+                        <img class="icon-card" src="../assets/icons/upload.png" alt="">
+                        <img class="icon-card" src="../assets/icons/link.png" alt="">
+                    </div>
+                    <div class="rr">
+                        <button>Guardar</button>
+                    </div>
+                </div>
+                <div class="info-principal">
+                    <h2>Opinion from people on social media
+                    </h2>
+                    <p>Es una imagen de un celular rumbo al excusado Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ratione, voluptatem alias ut tempore eaque delectus, minus non officiis tenetur odit aliquid cum cumque autem consequatur quia iste temporibus ipsum?</p>
+                </div>
+                <div class="middle">
+                    <div class="middle-left">
+                        <div class="middle-img">
+                            <img class="icon-card" src="../assets/icons/ellipsis.png" alt="">
+                        </div>
+                        <div class="middle-text">
+                            <strong>
+                                texto 1
+                            </strong>
+                            <p>texto 2</p>
+                        </div>
+                    </div>
+                    <div class="middle-right">
+                        <button class="middle-btn">Seguir</button>
+                    </div>
+                </div>
+                <div>
+                    <h3>Comentarios</h3>
+                </div>
+                <div class="low">
+                    <div class="low-img">
+                        <img class="icon-card" src="../assets/icons/link.png" alt="">
+                    </div>
+                    <div class="low-input">
+                        <input type="text" placeholder="Agregar un comentario">
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-
-        <section class="main">
-            <div class="container">
-                <div class="card-one card">
-                    <img src="https://i.pinimg.com/236x/82/cb/a7/82cba761282257b0b8e21e18d6287c1e.jpg" alt="" >
-                </div>
-                <div class="card-two card">
-                    <img src="https://i.pinimg.com/236x/b0/d8/b1/b0d8b1573315a1eb14d112ea55e6eac7.jpg" alt="">
-                </div>
-                <div class="card-three card">
-                    <img src="https://i.pinimg.com/236x/c0/ab/49/c0ab49d90f2ab6bdfdb588be0ce8cd78.jpg" alt="">
-                </div>
-                <div class="card-four card">
-                    <img src="https://i.pinimg.com/236x/14/ff/0b/14ff0bf9c1243e222e77fa6822d9262b.jpg" alt="">
-                </div>
-            </div>
-            <div class="container">
-                <div class="card-one card">
-                    <img src="https://i.pinimg.com/236x/82/cb/a7/82cba761282257b0b8e21e18d6287c1e.jpg" alt="" >
-                </div>
-                <div class="card-two card">
-                    <img src="https://i.pinimg.com/236x/b0/d8/b1/b0d8b1573315a1eb14d112ea55e6eac7.jpg" alt="">
-                </div>
-                <div class="card-three card">
-                    <img src="https://i.pinimg.com/236x/c0/ab/49/c0ab49d90f2ab6bdfdb588be0ce8cd78.jpg" alt="">
-                </div>
-                <div class="card-four card">
-                    <img src="https://i.pinimg.com/236x/14/ff/0b/14ff0bf9c1243e222e77fa6822d9262b.jpg" alt="">
-                </div>
-            </div>
-        </section>
-    
+    </div>
+    <div class="row cont">
+        <div class="col">
+            <a href=""><img src="../assets/images/pin1.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin2.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin3.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin4.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin5.jpeg" alt=""></a>
+        </div>
+        <div class="col">
+            <a href=""><img src="../assets/images/pin6.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin7.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin8.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin9.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin10.jpeg" alt=""></a>
+        </div>
+        <div class="col">
+            <a href=""><img src="../assets/images/pin11.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin12.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin13.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin14.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin15.jpeg" alt=""></a>
+        </div>
+        <div class="col">
+            <a href=""><img src="../assets/images/pin16.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin17.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin18.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin19.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin20.jpeg" alt=""></a>
+        </div>
+        <div class="col">
+            <a href=""><img src="../assets/images/pin21.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin22.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin23.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin24.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin25.jpeg" alt=""></a>
+        </div>
+        <div class="col">
+            <a href=""><img src="../assets/images/pin26.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin27.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin28.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin29.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin30.jpeg" alt=""></a>
+        </div>
+        <div class="col">
+            <a href=""><img src="../assets/images/pin29.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin31.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin30.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin32.jpeg" alt=""></a>
+            <a href=""><img src="../assets/images/pin33.jpeg" alt=""></a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

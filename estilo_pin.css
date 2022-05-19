@@ -15,7 +15,7 @@ nav{
     width: 100%;
 }
 .cont{
-    padding: 0px 30px;
+    padding: 30px;
 }
 #navbar-pinterest{
     display: flex;
@@ -91,4 +91,57 @@ input{
     padding-left: 20px;
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.tarjeta{
+    height: 490px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow: 3px 5px 8px 0px rgba(0,0,0,0.20);
+    border-radius: 20px;
+    overflow: hidden;
+}
+#image-card{
+    margin: 0px;
+    height: 100%;
+    border-radius: 0px;
+}
+.derecho{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    padding: 15px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.icon-card{
+    height: 24px;
+    width: 24px;
+    margin: 4px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+.middle-left{
+    display: flex;
+}
+.middle-img{
+    margin-right: 16px;
+}
+.low{
+    display: flex;
+}
+.low-input{
+    width: 100%;
 }
