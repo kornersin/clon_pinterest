@@ -141,6 +141,7 @@ input{
 }
 .low{
     display: flex;
+    justify-content: center;
 }
 .low-input{
     width: 100%;
