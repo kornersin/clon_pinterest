@@ -162,3 +162,175 @@ input{
     padding: 12px;
     border-radius: 25px;    
 }
+
+@media only screen and (max-width: 700px){
+    .form-control{
+        border-radius: 25px;
+    }
+    img{
+        border-radius: 15px;
+        margin: 8px ;
+        width: 100%;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+    nav{
+        height: 80px;
+        padding: 5px;
+        width: 100%;
+    }
+    .cont{
+        padding: 30px;
+    }
+    #navbar-pinterest{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .logo img{
+        height: 32px;
+        width: 32px;
+    }
+    .button{
+        background-color: #1d1d1d;
+        padding: 12px 16px;
+        border-radius: 25px;
+    }
+    .button a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 14pt;
+    }
+    .today a{
+        color: #1d1d1d;
+        text-decoration: none;
+        font-size: 14pt;
+    }
+    #input-searchbar{
+        width: 60%;
+    }
+    input{
+        width: 100%;
+        height: 40px;
+        border-radius: 100px;
+        border: 2px solid gray;
+    }
+    .nav-right{
+        display: flex;
+    }
+    .notifications,
+    .messages,
+    .profile,
+    .dropdown,
+    .logo{
+        height: 48px;
+        width: 48px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .profile :hover{
+        background-color: #c3c3c3;
+        border-radius: 100px;
+    }
+    .notifications :hover{
+        background-color: #c3c3c3;
+        border-radius: 100px;
+    }
+    .messages :hover{
+        background-color: #c3c3c3;
+        border-radius: 100px;
+    }
+    .logo :hover{
+        background-color: #c3c3c3;
+        border-radius: 100px;
+    }
+    .notifications img,
+    .messages img,
+    .profile img{
+        height: 24px;
+        width: 24px;
+        color: #555555;
+    }
+    input{
+        padding-left: 20px;
+        font-size: 12pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contenedor{
+        height: 700px;
+        display: flex;
+        justify-content: center;
+    }
+    .tarjeta{
+        height: 650px;
+        width: 60%;
+        display: grid;
+        grid-template-columns: auto auto;
+        box-shadow: 3px 5px 8px 0px rgba(0,0,0,0.20);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    #image-card{
+        margin: 0px;
+        height: 100%;
+        width: 50%;
+        border-radius: 0px;
+    }
+    .derecho{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+    .up{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .icon-card{
+        height: 24px;
+        width: 24px;
+        margin: 4px;
+    }
+    .middle{
+        display: flex;
+        justify-content: space-between;
+    }
+    .middle-left{
+        display: flex;
+    }
+    .middle-img{
+        margin-right: 16px;
+    }
+    .low{
+        display: flex;
+        justify-content: center;
+    }
+    .low-input{
+        width: 100%;
+    }
+    
+    .btn_rr{
+        background-color: red;
+        border:none;
+        color: white;
+        padding: 12px;
+        border-radius: 25px;    
+    }
+    
+    .middle-btn{
+        background-color: gray;
+        border: none;
+        color: white;
+        padding: 12px;
+        border-radius: 25px;    
+    }
+}
