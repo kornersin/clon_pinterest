@@ -268,10 +268,10 @@ input{
         justify-content: center;
     }
     .tarjeta{
-        height: 650px;
+        height: 750px;
         width: 60%;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         box-shadow: 3px 5px 8px 0px rgba(0,0,0,0.20);
         border-radius: 20px;
         overflow: hidden;
@@ -279,7 +279,6 @@ input{
     #image-card{
         margin: 0px;
         height: 100%;
-        width: 50%;
         border-radius: 0px;
     }
     .derecho{
